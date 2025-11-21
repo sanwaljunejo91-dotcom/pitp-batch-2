@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form on just html</title>
+</head>
+<body>
+    <div class="container">
+        <form action="form.php">
+            <h1>Sign Up Form</h1>
+            <label for="name">Enter Your Name : </label>
+            <input type="text" name="myName" id="name" required>
+
+            <br><br>
+
+            <label for="email">Enter Your Email :</label>
+            <input type="email" name="myEmail" id="email" required>
+            <br><br>
+            <label for="ps">Enter Your Password :</label>
+            <input type="password" name="myPass" id="ps" required>
+            <br><br>
+            <label for="gender">Your Gender :</label>
+            <input type="radio" name="myGender" id="gender" required > <i> Male</i> 
+            <input type="radio" name="myGender" id="gender"required> <i> Female </i>
+            <input type="radio" name="myGender" id="gender"required> <i> Other </i>
+            <br><br>
+            <Label>Select Your Country :</Label>
+            <select name="count" id="country">
+            
+                <option value="pk">Pakistan</option>
+                <option value="pk">Pakistan</option>
+                <option value="pk">Pakistan</option>
+                <option value="pk">Pakistan</option>
+
+            </select>
+            <br> <br>
+            <label for="texta">Enter Your Message :</label>
+            <br><br>
+            <textarea name="textk" id="texta"></textarea>
+            <br><br>
+            <button>Submit</button>
+            <input type="reset" name="" id="">
+        </form>
+
+    </div>
+</body>
+</html>
